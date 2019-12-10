@@ -17,16 +17,16 @@
  *
  * @package WordPress
  */
-
+   
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpress' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'esben_wordpress' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '123' );
+define( 'DB_PASSWORD', 'java@123' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
