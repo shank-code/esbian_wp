@@ -153,3 +153,18 @@ div.wpforms-container-full .wpforms-form textarea#wpforms-156-field_4 {
 label.wpforms-error{
     color: #fff !important;
 }
+.links-hold .social_foot{
+    display: flex;
+    margin-top: 15px;
+}
+.links-hold .social_foot .fa{
+    margin-right: 15px;
+    border-radius: 25px;
+    background-color: #a31715;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+}

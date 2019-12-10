@@ -36,5 +36,6 @@ register_deactivation_hook( __FILE__, 'pluginprefix_deactivation' );
 
 function plugin_css(){
     wp_enqueue_style( 'custon_edit_plugin', plugins_url( "style.css", __FILE__ ));
+    wp_enqueue_style( 'custon_edit_fontawesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css","all");
 }
 add_action( 'wp_enqueue_scripts', 'plugin_css' );
